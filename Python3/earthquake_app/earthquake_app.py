@@ -4,8 +4,8 @@ start_time = input('Enter start time (YYYY-MM-DD): ')
 end_time = input('Enter end time (YYYY-MM-DD): ')
 latitude = input('Enter latitude: ')
 longitude = input('Enter longitude: ')
-max_radius_km = input('Enter maxradiuskm: ')
-min_magnitude = input('Enter minmagnitude: ')
+max_radius_km = input('Enter max radius km: ')
+min_magnitude = input('Enter min magnitude: ')
 
 
 url = 'https://earthquake.usgs.gov/fdsnws/event/1/query?'
