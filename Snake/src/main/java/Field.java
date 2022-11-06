@@ -86,8 +86,10 @@ public class Field extends JPanel implements ActionListener {
     }
 
     public void createApple() {
+        if (appleX != dots && appleY != dots){
         appleX = new Random().nextInt(20) * DOT_SIZE;
         appleY = new Random().nextInt(20) * DOT_SIZE;
+        }
     }
 
     public void loadImages() {
