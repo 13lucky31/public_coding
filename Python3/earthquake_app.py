@@ -21,7 +21,7 @@ response = requests.get(url, headers={'Accept': 'application/json'}, params={
 data = response.json()
 earthquake_list = data['features']
 count = 0
-print('The places there was an earthquake in a given period of time: \n')
+print('\n-------> The places there was an earthquake in a given period of time: <-------\n')
 for earthquake in earthquake_list:
         count += 1
-        print(f'''{count}. Place: {earthquake['properties']['place']}. Minmagnitude: {earthquake['properties']['place']}.''')
+        print(f'''{count}) Place: {earthquake['properties']['place']}. \nMinmagnitude: {earthquake['properties']['place']}.''')
