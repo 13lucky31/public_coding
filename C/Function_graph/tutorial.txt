@@ -1,7 +1,7 @@
 -----------------------------------------------
 This project created by MVS
 -----------------------------------------------
-Compile the game in CLI:
+Compile in CLI:
 make
 
 Open file in CLI:
