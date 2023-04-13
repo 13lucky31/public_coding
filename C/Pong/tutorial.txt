@@ -1,0 +1,18 @@
+-----------------------------------------------
+This project created by MVS
+-----------------------------------------------
+
+A ping pong console game. 
+
+A game for two players. 
+Control: 
+1st player - up "a", down "z"; 
+2nd player - up "k", down "m". 
+
+The task of the players is to score a goal and not miss the ball =)
+
+Compile the game in CLI:
+gcc -Wall -Wextra -Werror pong.c
+
+Open file in CLI:
+./ a.out

@@ -1,0 +1,19 @@
+-----------------------------------------------
+This project created by MVS
+-----------------------------------------------
+
+Game of life. 
+
+Сreate an initial state, and then just watch its development.
+
+Compile in CLI:
+gcc -Wall -Wextra -Werror game_of_life.c
+
+Open file in CLI:
+./ a.out
+
+Use the prepared maps (you can copy) or enter your own (field 80*25)
+
+You can adjust the speed: 
+faster - press "a" 
+slower - press "z"
